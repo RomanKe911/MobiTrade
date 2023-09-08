@@ -34,6 +34,8 @@ class PreferencFragment : Fragment() {
         }
 
         // Hello World!
+        // Roman
+        // Andorid Studio
        /* Thread(
             {
                 val ftp =
