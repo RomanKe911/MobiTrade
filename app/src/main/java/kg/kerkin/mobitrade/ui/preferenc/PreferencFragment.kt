@@ -7,11 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.lifecycleScope
-import kg.kerkin.mobitrade.FtpWebHost
-import kg.kerkin.mobitrade.databinding.FragmentNotificationsBinding
 import kg.kerkin.mobitrade.databinding.FragmentPreferencBinding
-import kotlinx.coroutines.launch
 
 class PreferencFragment : Fragment() {
 
@@ -37,13 +33,14 @@ class PreferencFragment : Fragment() {
             textView.text = it
         }
 
-        Thread(
+        // Hello World!
+       /* Thread(
             {
                 val ftp =
                     FtpWebHost("ftp.sunbell.webhost.kg", 21, "sunbell_siberica", "Roman911NFS")
                 textView.text = ftp.FTPisConnect().toString()
             }).start()
-
+*/
         return root
     }
 
